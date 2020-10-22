@@ -1,0 +1,12 @@
+<templateSet group="others">
+  <template name="todo" value="//TODO " description="add todo comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tsig" value="// @ts-ignore" description="add ts-ignore to next line code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
