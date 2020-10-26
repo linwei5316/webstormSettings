@@ -1,12 +1,16 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="I@userDefined" key=".I" provider="builtin.ts" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="interface $EXPR$ {&#10;  $END$&#10;}" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="forEach@userDefined" key=".forEach" provider="builtin.js" language-level="ES6" topmost="true">
       <conditions />
-      <template name="fakeKey" value="$EXPR$.forEach(() =&gt; {})" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="$EXPR$.forEach(() =&gt; {})" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="expect@userDefined" key=".expect" provider="builtin.js" language-level="ES6" topmost="true">
       <conditions />
-      <template name="fakeKey" value="expect($EXPR$)" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="expect($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
