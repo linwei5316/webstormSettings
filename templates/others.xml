@@ -1,5 +1,5 @@
 <templateSet group="others">
-  <template name="todo" value="//TODO " description="add todo comment" toReformat="false" toShortenFQNames="true">
+  <template name="todo" value="// TODO " description="add todo comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>

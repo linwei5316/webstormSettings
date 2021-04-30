@@ -3,6 +3,7 @@
     <value>
       <option name="INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="true" />
       <option name="SMART_TABS" value="true" />
     </value>
   </option>
@@ -12,6 +13,9 @@
   <TypeScriptCodeStyleSettings version="0">
     <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE" />
   </TypeScriptCodeStyleSettings>
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
   <codeStyleSettings language="JSON">
     <indentOptions>
       <option name="TAB_SIZE" value="2" />
