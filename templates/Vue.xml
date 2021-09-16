@@ -1,0 +1,8 @@
+<templateSet group="Vue">
+  <template name="v-t" value="v-t=&quot;{ key: '', page: '' }&quot;" description="v-t for fe-cms on vue template directive" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+      <option name="VUE_TEMPLATE" value="true" />
+    </context>
+  </template>
+</templateSet>
