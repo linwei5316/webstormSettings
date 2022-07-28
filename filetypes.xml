@@ -5,6 +5,7 @@
       <mapping pattern="sideMenuLayout.scss" type="AUTO_DETECTED" />
       <mapping pattern="aa" type="AUTO_DETECTED" />
       <mapping pattern="getActivityDetail.json" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
